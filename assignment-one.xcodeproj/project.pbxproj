@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		0284641BA23743CB91347678 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 45168DE3CFF54DA4833AF4CB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = 4FC3C8F824DD49A282DA1866 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				65ED2BB82A9BD866AC146964 /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,14 +20,16 @@
 		};
 		0615DA79487146218E340B6C /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D58C108106454E1CA494FEF8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 931E2F448AE941F5AA087B70 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				C36E241E10643DA90846C27E /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				BCA3DC165E5347C5826885E4 /* PBXTargetDependency */,
-				AC816854CBFA44D6829715D7 /* PBXTargetDependency */,
-				896757266EA04D5EB629AE63 /* PBXTargetDependency */,
+				81C1FA11D26D413C817A7A04 /* PBXTargetDependency */,
+				B6C13CC0148844C48028EC12 /* PBXTargetDependency */,
+				C7DE69FE6E464694B428C655 /* PBXTargetDependency */,
+				553F5F7A7A3A45C4A3847841 /* PBXTargetDependency */,
+				197F0776F62F4972B99300F1 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -35,100 +37,152 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1F523A4290564D39B925312A /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/gray2binary.cpp */ = {isa = PBXBuildFile; fileRef = B8F25435E7784992858D7BB0 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/gray2binary.cpp */; };
-		72639506E4EB410BA15156BA /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 9132773D5032435CA242DF96 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */; };
-		75531A11D9D243CAAA371A1E /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = AA19F78448F64EA88FA2E600 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */; };
-		9EBA5F0F29A94B2883A7CF94 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/rgb2gray.cpp */ = {isa = PBXBuildFile; fileRef = 1209C8B3960B49DCA3DFBE26 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/rgb2gray.cpp */; };
+		1192B474DF2D4824B4EDC5EA /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/contrast.cpp */ = {isa = PBXBuildFile; fileRef = BB1E7D92D86A490EB4FB162D /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/contrast.cpp */; };
+		3BD387EBD2854515A20A2578 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/brightness.cpp */ = {isa = PBXBuildFile; fileRef = 5A485BFC4EE74AC9A21FE9BD /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/brightness.cpp */; };
+		43CEF59421A941FEA91F640E /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = B4E59D319ED74CB2976C75DF /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */; };
+		86CFCD776B344F9D9CCD82FC /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 43D37E7C1497400E81895753 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */; };
+		8EAB7765D1F14B89A7163415 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 743998CABBD74CB9B99CA1ED /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */; };
+		9052F3846BC2454FA0191F31 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/gray2binary.cpp */ = {isa = PBXBuildFile; fileRef = 3CAC9578DFE04204AFC9E205 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/gray2binary.cpp */; };
+		CF9E5F7B1B834E93AD5983DF /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = A81EF40E2CE74A4A9A8DB68D /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */; };
+		D5B4DE9EF7F245DC8E0F5824 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/rgb2gray.cpp */ = {isa = PBXBuildFile; fileRef = 4DDDB8AA08B2446BAE111E8A /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/rgb2gray.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		32103741F76A4635BA2140EE /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		5A3941F1CB1A4E2082814F60 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		5AADA0FA2D144C568D3A33B2 /* Debug */ = {
+		066DC0D377284EA78CCB366C /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		8C81F482807640D7935DF239 /* RelWithDebInfo */ = {
+		80A7BFEEE442415CAA8FF618 /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
+		BB058E17C85D410EA857DB8F /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		DD4BE98FD52C430BBD1F4215 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		4574B5F631314ECCBD9C92F7 /* PBXContainerItemProxy */ = {
+		05726172E0F64CBDAE624071 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 91B06A3EF6AB43C38FED313D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0284641BA23743CB91347678;
 			remoteInfo = ZERO_CHECK;
 		};
-		B862AECB9AB548039E35D7FE /* PBXContainerItemProxy */ = {
+		09F510F86178455B85FB34BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 91B06A3EF6AB43C38FED313D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CFEC227B6B474169824C99C4;
 			remoteInfo = rgb2gray;
 		};
-		C781FDE794BB45E5AF1E9282 /* PBXContainerItemProxy */ = {
+		0AEC2E477A4F442B9B57B44A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91B06A3EF6AB43C38FED313D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0284641BA23743CB91347678;
+			remoteInfo = ZERO_CHECK;
+		};
+		1F1CB9211D9C4D11968366BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91B06A3EF6AB43C38FED313D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63E328D368DB4AFBAFA9B2DD;
+			remoteInfo = contrast;
+		};
+		25844191AC9E4A6BAF1F1EE8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91B06A3EF6AB43C38FED313D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0284641BA23743CB91347678;
+			remoteInfo = ZERO_CHECK;
+		};
+		27A02EEF071E411D93DFFEBF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 91B06A3EF6AB43C38FED313D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 75F9A493E71947B896FA447A;
 			remoteInfo = gray2binary;
 		};
-		C8E9B1A0A9F04EDA832752B3 /* PBXContainerItemProxy */ = {
+		5E6E752C28944163BAE9CCE6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 91B06A3EF6AB43C38FED313D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0284641BA23743CB91347678;
 			remoteInfo = ZERO_CHECK;
 		};
-		FE9E7EA7CB3B4CBA8F92B7A6 /* PBXContainerItemProxy */ = {
+		9FF73DE6A19C4E35B12892EB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 91B06A3EF6AB43C38FED313D /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0284641BA23743CB91347678;
 			remoteInfo = ZERO_CHECK;
+		};
+		B9DF16384A374DC3AC811BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91B06A3EF6AB43C38FED313D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AC8126DB2084916B29FA62F;
+			remoteInfo = brightness;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1209C8B3960B49DCA3DFBE26 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/rgb2gray.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rgb2gray.cpp; path = rgb2gray.cpp; sourceTree = SOURCE_ROOT; };
-		1D772E86AEE04238BBD08D9C /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		67087963DAB241BAA6F9D8A8 /* gray2binary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = gray2binary; sourceTree = BUILT_PRODUCTS_DIR; };
-		9132773D5032435CA242DF96 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		AA19F78448F64EA88FA2E600 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		ABB997EDC2284B75A021AC31 /* rgb2gray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = rgb2gray; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8F25435E7784992858D7BB0 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/gray2binary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gray2binary.cpp; path = gray2binary.cpp; sourceTree = SOURCE_ROOT; };
+		3CAC9578DFE04204AFC9E205 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/gray2binary.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = gray2binary.cpp; path = gray2binary.cpp; sourceTree = SOURCE_ROOT; };
+		43D37E7C1497400E81895753 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4B00B5CBBD454A9AA3CF36A4 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4DDDB8AA08B2446BAE111E8A /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/rgb2gray.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = rgb2gray.cpp; path = rgb2gray.cpp; sourceTree = SOURCE_ROOT; };
+		5A485BFC4EE74AC9A21FE9BD /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/brightness.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = brightness.cpp; path = brightness.cpp; sourceTree = SOURCE_ROOT; };
+		73FD6E9DCF114E47B733AF38 /* brightness */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = brightness; sourceTree = BUILT_PRODUCTS_DIR; };
+		743998CABBD74CB9B99CA1ED /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		79D0960B15764AD0A69CF6D2 /* gray2binary */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = gray2binary; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D1EB5270ACB449ABD0B03AA /* rgb2gray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = rgb2gray; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EAA8E51DF5F4C14B1E3031F /* contrast */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = contrast; sourceTree = BUILT_PRODUCTS_DIR; };
+		A81EF40E2CE74A4A9A8DB68D /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B4E59D319ED74CB2976C75DF /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BB1E7D92D86A490EB4FB162D /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/contrast.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = contrast.cpp; path = contrast.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		31DA6DD74E794C4180806899 /* Frameworks */ = {
+		2266B98A70BC48E28F2CEE7B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50C285E74B714BA1AE6AC57D /* Frameworks */ = {
+		8488D924761E4E05951F9185 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97695098483C41D5896C11A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE82BEF6ADC34F61A69DE04C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -138,118 +192,190 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		11FCAC54BBAF405992053665 /* rgb2gray */ = {
+		0CEA31FA58CE42C699EFAF5A /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				528A61EDBC3F487FA0835D97 /* Source Files */,
-				9132773D5032435CA242DF96 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */,
+				4DDDB8AA08B2446BAE111E8A /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/rgb2gray.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		111A94BB935A420CA4C435C8 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CAC9578DFE04204AFC9E205 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/gray2binary.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		3CC8534A718C476C8E0E5532 /* rgb2gray */ = {
+			isa = PBXGroup;
+			children = (
+				0CEA31FA58CE42C699EFAF5A /* Source Files */,
+				B4E59D319ED74CB2976C75DF /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */,
 			);
 			name = rgb2gray;
 			sourceTree = "<group>";
 		};
-		38376958097640688039F81E /* gray2binary */ = {
+		4A018BCAE6AE4FC48DB3E9AA /* brightness */ = {
 			isa = PBXGroup;
 			children = (
-				7B518E045B944747AD73716E /* Source Files */,
-				AA19F78448F64EA88FA2E600 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */,
+				FD88700AA0A34B7288797A71 /* Source Files */,
+				43D37E7C1497400E81895753 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */,
 			);
-			name = gray2binary;
+			name = brightness;
 			sourceTree = "<group>";
 		};
-		40A711031392422D94CCFC7B /* Frameworks */ = {
+		533C8F049DE34E60919875EE = {
 			isa = PBXGroup;
 			children = (
+				4A018BCAE6AE4FC48DB3E9AA /* brightness */,
+				E55F13A9B69C4D1DABA99EF2 /* gray2binary */,
+				863A5564FD714622A2C00E9C /* contrast */,
+				3CC8534A718C476C8E0E5532 /* rgb2gray */,
+				ABABBAC4F42C4CD09BF2E350 /* ALL_BUILD */,
+				9E8CA29771E14460A9E64A8B /* Products */,
+				B0E7D29707B448C480ABDBC9 /* Frameworks */,
 			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		46135EC171E2447081F26339 /* CMake Rules */ = {
+		61B7526241AA45349535A03A /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB1E7D92D86A490EB4FB162D /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/contrast.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		863A5564FD714622A2C00E9C /* contrast */ = {
+			isa = PBXGroup;
+			children = (
+				61B7526241AA45349535A03A /* Source Files */,
+				A81EF40E2CE74A4A9A8DB68D /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */,
+			);
+			name = contrast;
+			sourceTree = "<group>";
+		};
+		86505255ECAC4450ACA6C566 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		528A61EDBC3F487FA0835D97 /* Source Files */ = {
+		9E8CA29771E14460A9E64A8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1209C8B3960B49DCA3DFBE26 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/rgb2gray.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		7B518E045B944747AD73716E /* Source Files */ = {
-			isa = PBXGroup;
-			children = (
-				B8F25435E7784992858D7BB0 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/gray2binary.cpp */,
-			);
-			name = "Source Files";
-			sourceTree = "<group>";
-		};
-		A6565DDADB264D79B251FC67 = {
-			isa = PBXGroup;
-			children = (
-				38376958097640688039F81E /* gray2binary */,
-				11FCAC54BBAF405992053665 /* rgb2gray */,
-				F7A3837218CD4DC58C9EEDCE /* ALL_BUILD */,
-				C59C3B8AD4E94837A6F3DC22 /* Products */,
-				40A711031392422D94CCFC7B /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		C59C3B8AD4E94837A6F3DC22 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				67087963DAB241BAA6F9D8A8 /* gray2binary */,
-				ABB997EDC2284B75A021AC31 /* rgb2gray */,
+				73FD6E9DCF114E47B733AF38 /* brightness */,
+				9EAA8E51DF5F4C14B1E3031F /* contrast */,
+				79D0960B15764AD0A69CF6D2 /* gray2binary */,
+				7D1EB5270ACB449ABD0B03AA /* rgb2gray */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F7A3837218CD4DC58C9EEDCE /* ALL_BUILD */ = {
+		ABABBAC4F42C4CD09BF2E350 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				46135EC171E2447081F26339 /* CMake Rules */,
-				1D772E86AEE04238BBD08D9C /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */,
+				86505255ECAC4450ACA6C566 /* CMake Rules */,
+				4B00B5CBBD454A9AA3CF36A4 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		B0E7D29707B448C480ABDBC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E55F13A9B69C4D1DABA99EF2 /* gray2binary */ = {
+			isa = PBXGroup;
+			children = (
+				111A94BB935A420CA4C435C8 /* Source Files */,
+				743998CABBD74CB9B99CA1ED /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/CMakeLists.txt */,
+			);
+			name = gray2binary;
+			sourceTree = "<group>";
+		};
+		FD88700AA0A34B7288797A71 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				5A485BFC4EE74AC9A21FE9BD /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/brightness.cpp */,
+			);
+			name = "Source Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		75F9A493E71947B896FA447A /* gray2binary */ = {
+		63E328D368DB4AFBAFA9B2DD /* contrast */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D6082F6B78E4DC592AD5FA6 /* Build configuration list for PBXNativeTarget "gray2binary" */;
+			buildConfigurationList = 2F32B450CC85463797950E8B /* Build configuration list for PBXNativeTarget "contrast" */;
 			buildPhases = (
-				D9684151E1A54C859A8760D9 /* Sources */,
-				31DA6DD74E794C4180806899 /* Frameworks */,
+				1B7951E347674E89851AF709 /* Sources */,
+				AE82BEF6ADC34F61A69DE04C /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EE85B0680DE446CA8C0C52FD /* PBXTargetDependency */,
+				A7C525BBE31243CCA56F2D6B /* PBXTargetDependency */,
+			);
+			name = contrast;
+			productName = contrast;
+			productReference = 9EAA8E51DF5F4C14B1E3031F /* contrast */;
+			productType = "com.apple.product-type.tool";
+		};
+		6AC8126DB2084916B29FA62F /* brightness */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88AFBBCB5D44A3D9F1B8A55 /* Build configuration list for PBXNativeTarget "brightness" */;
+			buildPhases = (
+				0FC9B0D8BE2A4EA9B88D46FC /* Sources */,
+				8488D924761E4E05951F9185 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17DDBF4666D742C1A77383DA /* PBXTargetDependency */,
+			);
+			name = brightness;
+			productName = brightness;
+			productReference = 73FD6E9DCF114E47B733AF38 /* brightness */;
+			productType = "com.apple.product-type.tool";
+		};
+		75F9A493E71947B896FA447A /* gray2binary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D50338AA608347CBB373147C /* Build configuration list for PBXNativeTarget "gray2binary" */;
+			buildPhases = (
+				32DAB48A0BD2488692FCA900 /* Sources */,
+				97695098483C41D5896C11A0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4D0E6C29DFD48BEBEB389AD /* PBXTargetDependency */,
 			);
 			name = gray2binary;
 			productName = gray2binary;
-			productReference = 67087963DAB241BAA6F9D8A8 /* gray2binary */;
+			productReference = 79D0960B15764AD0A69CF6D2 /* gray2binary */;
 			productType = "com.apple.product-type.tool";
 		};
 		CFEC227B6B474169824C99C4 /* rgb2gray */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0A2E7C9A018E420891D00599 /* Build configuration list for PBXNativeTarget "rgb2gray" */;
+			buildConfigurationList = A0E9BC97E3AD45DAA7DAAD2B /* Build configuration list for PBXNativeTarget "rgb2gray" */;
 			buildPhases = (
-				AF3A9A751BDA446C8516111B /* Sources */,
-				50C285E74B714BA1AE6AC57D /* Frameworks */,
+				E68AD9B02A9E4892BA4309E0 /* Sources */,
+				2266B98A70BC48E28F2CEE7B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FDA891B89A9641A889D267A0 /* PBXTargetDependency */,
+				4997626ED67442D28964DCCF /* PBXTargetDependency */,
 			);
 			name = rgb2gray;
 			productName = rgb2gray;
-			productReference = ABB997EDC2284B75A021AC31 /* rgb2gray */;
+			productReference = 7D1EB5270ACB449ABD0B03AA /* rgb2gray */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -261,23 +387,25 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = 2106EDB9FA0946B08093061A /* Build configuration list for PBXProject "assignment-one" */;
+			buildConfigurationList = D63FB9C268664A299EEC10AD /* Build configuration list for PBXProject "assignment-one" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				5AADA0FA2D144C568D3A33B2 /* Debug */,
-				5A3941F1CB1A4E2082814F60 /* Release */,
-				32103741F76A4635BA2140EE /* MinSizeRel */,
-				8C81F482807640D7935DF239 /* RelWithDebInfo */,
+				066DC0D377284EA78CCB366C /* Debug */,
+				DD4BE98FD52C430BBD1F4215 /* Release */,
+				BB058E17C85D410EA857DB8F /* MinSizeRel */,
+				80A7BFEEE442415CAA8FF618 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = A6565DDADB264D79B251FC67;
+			mainGroup = 533C8F049DE34E60919875EE;
 			projectDirPath = .;
 			projectRoot = "";
 			targets = (
 				0615DA79487146218E340B6C /* ALL_BUILD */,
 				0284641BA23743CB91347678 /* ZERO_CHECK */,
+				6AC8126DB2084916B29FA62F /* brightness */,
+				63E328D368DB4AFBAFA9B2DD /* contrast */,
 				75F9A493E71947B896FA447A /* gray2binary */,
 				CFEC227B6B474169824C99C4 /* rgb2gray */,
 			);
@@ -384,54 +512,90 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AF3A9A751BDA446C8516111B /* Sources */ = {
+		0FC9B0D8BE2A4EA9B88D46FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EBA5F0F29A94B2883A7CF94 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/rgb2gray.cpp */,
+				3BD387EBD2854515A20A2578 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/brightness.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9684151E1A54C859A8760D9 /* Sources */ = {
+		1B7951E347674E89851AF709 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F523A4290564D39B925312A /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/gray2binary.cpp */,
+				1192B474DF2D4824B4EDC5EA /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/contrast.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32DAB48A0BD2488692FCA900 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9052F3846BC2454FA0191F31 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/gray2binary.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E68AD9B02A9E4892BA4309E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B4DE9EF7F245DC8E0F5824 /* /Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/rgb2gray.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		896757266EA04D5EB629AE63 /* PBXTargetDependency */ = {
+		17DDBF4666D742C1A77383DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 0284641BA23743CB91347678 /* ZERO_CHECK */;
-			targetProxy = 4574B5F631314ECCBD9C92F7 /* PBXContainerItemProxy */;
+			targetProxy = 25844191AC9E4A6BAF1F1EE8 /* PBXContainerItemProxy */;
 		};
-		AC816854CBFA44D6829715D7 /* PBXTargetDependency */ = {
+		197F0776F62F4972B99300F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0284641BA23743CB91347678 /* ZERO_CHECK */;
+			targetProxy = 0AEC2E477A4F442B9B57B44A /* PBXContainerItemProxy */;
+		};
+		4997626ED67442D28964DCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0284641BA23743CB91347678 /* ZERO_CHECK */;
+			targetProxy = 05726172E0F64CBDAE624071 /* PBXContainerItemProxy */;
+		};
+		553F5F7A7A3A45C4A3847841 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = CFEC227B6B474169824C99C4 /* rgb2gray */;
-			targetProxy = B862AECB9AB548039E35D7FE /* PBXContainerItemProxy */;
+			targetProxy = 09F510F86178455B85FB34BB /* PBXContainerItemProxy */;
 		};
-		BCA3DC165E5347C5826885E4 /* PBXTargetDependency */ = {
+		81C1FA11D26D413C817A7A04 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AC8126DB2084916B29FA62F /* brightness */;
+			targetProxy = B9DF16384A374DC3AC811BDD /* PBXContainerItemProxy */;
+		};
+		A7C525BBE31243CCA56F2D6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0284641BA23743CB91347678 /* ZERO_CHECK */;
+			targetProxy = 9FF73DE6A19C4E35B12892EB /* PBXContainerItemProxy */;
+		};
+		B4D0E6C29DFD48BEBEB389AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0284641BA23743CB91347678 /* ZERO_CHECK */;
+			targetProxy = 5E6E752C28944163BAE9CCE6 /* PBXContainerItemProxy */;
+		};
+		B6C13CC0148844C48028EC12 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 75F9A493E71947B896FA447A /* gray2binary */;
-			targetProxy = C781FDE794BB45E5AF1E9282 /* PBXContainerItemProxy */;
+			targetProxy = 27A02EEF071E411D93DFFEBF /* PBXContainerItemProxy */;
 		};
-		EE85B0680DE446CA8C0C52FD /* PBXTargetDependency */ = {
+		C7DE69FE6E464694B428C655 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0284641BA23743CB91347678 /* ZERO_CHECK */;
-			targetProxy = C8E9B1A0A9F04EDA832752B3 /* PBXContainerItemProxy */;
-		};
-		FDA891B89A9641A889D267A0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0284641BA23743CB91347678 /* ZERO_CHECK */;
-			targetProxy = FE9E7EA7CB3B4CBA8F92B7A6 /* PBXContainerItemProxy */;
+			target = 63E328D368DB4AFBAFA9B2DD /* contrast */;
+			targetProxy = 1F1CB9211D9C4D11968366BD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1E779D2CF6834D28957778D1 /* Debug */ = {
+		076104F2160F428A83B4637B /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -439,94 +603,24 @@ fi
 				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = 2;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14' ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14' ";
 				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = rgb2gray;
+				PRODUCT_NAME = contrast;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
 				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
-		};
-		1FFC7412CC4A4FB2938ADDF8 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		20377D84850944CB9E62ADAF /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		4598773CA972487789D579A5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/build";
-			};
-			name = Release;
-		};
-		4F78A67F64D9454982F0C011 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = RelWithDebInfo;
 		};
-		6D6C4DBD746B42C7B9CD9A22 /* MinSizeRel */ = {
+		0889E66126244390A9E68DC8 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -551,27 +645,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		73E7932582014EFEAF153B1E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/build";
-			};
-			name = RelWithDebInfo;
-		};
-		8248EC882BD14131A1E1C948 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/build";
-			};
-			name = Debug;
-		};
-		84EA165E9B764C99B8583D1E /* Release */ = {
+		0D93A39955A04011915D8623 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -589,74 +663,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
-		};
-		900EA75B973045E6AF2CE1FC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		90CFAC4E84BF42ED8694A69E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		ABE8DBB615644F56BB0C8E9A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = rgb2gray;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
 			name = RelWithDebInfo;
 		};
-		BCE0239DADD0487EAD03F633 /* Release */ = {
+		1486F7227ED6428D82CB1EFB /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -664,7 +673,7 @@ fi
 				EXECUTABLE_SUFFIX = "";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				INSTALL_PATH = "";
@@ -672,86 +681,16 @@ fi
 				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
 				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = rgb2gray;
+				PRODUCT_NAME = brightness;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
 				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Release;
+			name = MinSizeRel;
 		};
-		CBB2FE5057A248DE935AEA29 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gray2binary;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		CF347C67A1854639B5A5E1DE /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = "";
-				EXECUTABLE_SUFFIX = "";
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14' ";
-				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = gray2binary;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
-				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		E2AA8A2CB124497390E7FAFD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		E82D87FBEB7D4313AD1E0C9C /* Debug */ = {
+		1A6ABB35774248DCBBEBBD13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -776,7 +715,347 @@ fi
 			};
 			name = Debug;
 		};
-		EA6ED2212BC0442F928AC828 /* MinSizeRel */ = {
+		20F03676A1B6412283DB3430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = brightness;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2C5FF4A9465549C88C243FF6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = brightness;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		32AEECE0712D4EFF8E2869AE /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gray2binary;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		4A9642BF0116403692B11475 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		58485B558A97430B9DACACFC /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5E15AFFDC0FA42FDA9E82648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rgb2gray;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		644FFB4692974736BD167F06 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = contrast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		6990D70AAA244B92B19FF2E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		70B3563299A9449FB69176A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = contrast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		7349AD3D324749A7ACF1E513 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		886673D66585478AB13AE5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = brightness;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B2FA551420404BF9ADF25C8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/build";
+			};
+			name = Release;
+		};
+		CDB9B88B9F3543A0B6DE57CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DCD8B540377746C48B648FD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = contrast;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		E003FAE3468B4D87B24B7F95 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/build";
+			};
+			name = RelWithDebInfo;
+		};
+		E3E6CA21FE2B420684875A6A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EB8F8E924F874698AE3D9027 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -801,7 +1080,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		F681699B0EBC4964B7AD3495 /* MinSizeRel */ = {
+		F2E7C9E2CD204923BCE09B07 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -811,7 +1090,32 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		F7B87B20A133427CA966F5D2 /* RelWithDebInfo */ = {
+		F391FCB7CAF0468C9A54D027 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rgb2gray;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F648F51B8D1F46E090243087 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -829,62 +1133,144 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
+			name = Debug;
+		};
+		F8EAE105E4DE40C8862CF40E /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = rgb2gray;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
 			name = RelWithDebInfo;
+		};
+		FF99206CF96E4EB78CD2FF98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = (/Users/brock/opencv/build/lib,"$(inherited)");
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++14' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/brock/opencv/build/lib/libopencv_gapi.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_highgui.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_ml.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_objdetect.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_photo.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_stitching.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_video.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_videoio.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_dnn.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgcodecs.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_calib3d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_features2d.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_flann.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_imgproc.4.5.3.dylib,/Users/brock/opencv/build/lib/libopencv_core.4.5.3.dylib,"$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = gray2binary;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV";
+				SYSTEM_HEADER_SEARCH_PATHS = (/Users/brock/opencv/build,"/Users/brock/opencv/opencv-master/include","/Users/brock/opencv/opencv-master/modules/core/include","/Users/brock/opencv/opencv-master/modules/flann/include","/Users/brock/opencv/opencv-master/modules/imgproc/include","/Users/brock/opencv/opencv-master/modules/ml/include","/Users/brock/opencv/opencv-master/modules/photo/include","/Users/brock/opencv/opencv-master/modules/dnn/include","/Users/brock/opencv/opencv-master/modules/features2d/include","/Users/brock/opencv/opencv-master/modules/imgcodecs/include","/Users/brock/opencv/opencv-master/modules/videoio/include","/Users/brock/opencv/opencv-master/modules/calib3d/include","/Users/brock/opencv/opencv-master/modules/highgui/include","/Users/brock/opencv/opencv-master/modules/objdetect/include","/Users/brock/opencv/opencv-master/modules/stitching/include","/Users/brock/opencv/opencv-master/modules/ts/include","/Users/brock/opencv/opencv-master/modules/video/include","/Users/brock/opencv/opencv-master/modules/gapi/include","$(inherited)");
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		FFF73173027845DD80AC0BFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/brock/dev/projects/Image-Processing-Tutorial-0-Setting-Up-OpenCV/build";
+			};
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0A2E7C9A018E420891D00599 /* Build configuration list for PBXNativeTarget "rgb2gray" */ = {
+		2F32B450CC85463797950E8B /* Build configuration list for PBXNativeTarget "contrast" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1E779D2CF6834D28957778D1 /* Debug */,
-				BCE0239DADD0487EAD03F633 /* Release */,
-				6D6C4DBD746B42C7B9CD9A22 /* MinSizeRel */,
-				ABE8DBB615644F56BB0C8E9A /* RelWithDebInfo */,
+				70B3563299A9449FB69176A4 /* Debug */,
+				DCD8B540377746C48B648FD3 /* Release */,
+				644FFB4692974736BD167F06 /* MinSizeRel */,
+				076104F2160F428A83B4637B /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		2106EDB9FA0946B08093061A /* Build configuration list for PBXProject "assignment-one" */ = {
+		4FC3C8F824DD49A282DA1866 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8248EC882BD14131A1E1C948 /* Debug */,
-				4598773CA972487789D579A5 /* Release */,
-				F681699B0EBC4964B7AD3495 /* MinSizeRel */,
-				73E7932582014EFEAF153B1E /* RelWithDebInfo */,
+				F648F51B8D1F46E090243087 /* Debug */,
+				CDB9B88B9F3543A0B6DE57CF /* Release */,
+				58485B558A97430B9DACACFC /* MinSizeRel */,
+				E3E6CA21FE2B420684875A6A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		45168DE3CFF54DA4833AF4CB /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		931E2F448AE941F5AA087B70 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				90CFAC4E84BF42ED8694A69E /* Debug */,
-				900EA75B973045E6AF2CE1FC /* Release */,
-				20377D84850944CB9E62ADAF /* MinSizeRel */,
-				F7B87B20A133427CA966F5D2 /* RelWithDebInfo */,
+				6990D70AAA244B92B19FF2E7 /* Debug */,
+				7349AD3D324749A7ACF1E513 /* Release */,
+				4A9642BF0116403692B11475 /* MinSizeRel */,
+				0D93A39955A04011915D8623 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		6D6082F6B78E4DC592AD5FA6 /* Build configuration list for PBXNativeTarget "gray2binary" */ = {
+		A0E9BC97E3AD45DAA7DAAD2B /* Build configuration list for PBXNativeTarget "rgb2gray" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E82D87FBEB7D4313AD1E0C9C /* Debug */,
-				CBB2FE5057A248DE935AEA29 /* Release */,
-				EA6ED2212BC0442F928AC828 /* MinSizeRel */,
-				CF347C67A1854639B5A5E1DE /* RelWithDebInfo */,
+				5E15AFFDC0FA42FDA9E82648 /* Debug */,
+				F391FCB7CAF0468C9A54D027 /* Release */,
+				0889E66126244390A9E68DC8 /* MinSizeRel */,
+				F8EAE105E4DE40C8862CF40E /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D58C108106454E1CA494FEF8 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		C88AFBBCB5D44A3D9F1B8A55 /* Build configuration list for PBXNativeTarget "brightness" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E2AA8A2CB124497390E7FAFD /* Debug */,
-				84EA165E9B764C99B8583D1E /* Release */,
-				1FFC7412CC4A4FB2938ADDF8 /* MinSizeRel */,
-				4F78A67F64D9454982F0C011 /* RelWithDebInfo */,
+				886673D66585478AB13AE5DB /* Debug */,
+				20F03676A1B6412283DB3430 /* Release */,
+				1486F7227ED6428D82CB1EFB /* MinSizeRel */,
+				2C5FF4A9465549C88C243FF6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D50338AA608347CBB373147C /* Build configuration list for PBXNativeTarget "gray2binary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A6ABB35774248DCBBEBBD13 /* Debug */,
+				FF99206CF96E4EB78CD2FF98 /* Release */,
+				EB8F8E924F874698AE3D9027 /* MinSizeRel */,
+				32AEECE0712D4EFF8E2869AE /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D63FB9C268664A299EEC10AD /* Build configuration list for PBXProject "assignment-one" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFF73173027845DD80AC0BFE /* Debug */,
+				B2FA551420404BF9ADF25C8D /* Release */,
+				F2E7C9E2CD204923BCE09B07 /* MinSizeRel */,
+				E003FAE3468B4D87B24B7F95 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
