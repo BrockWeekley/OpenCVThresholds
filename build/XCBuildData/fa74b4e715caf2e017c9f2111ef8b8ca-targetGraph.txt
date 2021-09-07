@@ -1,0 +1,7 @@
+Target dependency graph (3 targets)
+ZERO_CHECK in simple-demo
+DisplayImage in simple-demo, depends on:
+ZERO_CHECK in simple-demo (explicit)
+ALL_BUILD in simple-demo, depends on:
+ZERO_CHECK in simple-demo (explicit)
+DisplayImage in simple-demo (explicit)
