@@ -52,19 +52,19 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "../Gray.jpg"
+            argument = "../Assignment-1-Images-GT/GrayMU.png"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "../Binary.jpg"
+            argument = "../Assignment-1-Images-GT/Originals/BinaryMU.png"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "150"
+            argument = "135"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "../Lenna.jpg"
+            argument = "../Assignment-1-Images-GT/GT/MemorialUnionAtMU-GT.png"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>

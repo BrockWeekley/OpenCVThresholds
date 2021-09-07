@@ -52,11 +52,11 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "../Lenna.jpg"
+            argument = "../Assignment-1-Images-GT/Originals/MemorialUnionAtMU.png"
             isEnabled = "YES">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "../Gray.jpg"
+            argument = "../Assignment-1-Images-GT/GrayMU.png"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
