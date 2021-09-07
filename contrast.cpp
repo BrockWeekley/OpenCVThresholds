@@ -14,7 +14,7 @@ int main(int argc, char** argv )
     cols = image.size[1];
     int min = atoi(argv[1]);
     int max = atoi(argv[2]);
-    int slope = max - min;
+    float slope = max - min;
     
     if ( !image.data )
     {
@@ -24,16 +24,16 @@ int main(int argc, char** argv )
     
     for (int row = 0; row < rows; row++) {
         for (int col = 0; col < cols; col++) {
-            if (image.at<uint8_t>(row, col) * slope > 255) {
-                image.at<uint8_t>(row, col) = 255;
+            int newPixel = (image.at<uint8_t>(row, col) - min) * 255 / slope;
+            if (newPixel > max) {
+                image.at<uint8_t>(row, col) = max;
                 continue;
             }
-            if (image.at<uint8_t>(row, col) * slope < 0) {
-                image.at<uint8_t>(row, col) = 0;
+            if (newPixel < min) {
+                image.at<uint8_t>(row, col) = min;
                 continue;
             }
-            
-            image.at<uint8_t>(row, col) *= slope;
+            image.at<uint8_t>(row, col) = newPixel;
         }
     }
     cv::imshow("Display Image", image);
